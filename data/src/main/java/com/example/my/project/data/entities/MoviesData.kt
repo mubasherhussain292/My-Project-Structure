@@ -16,7 +16,7 @@ data class MoviesData(
 fun MoviesData.toDomain() = MovieEntity(
     id = id,
     title = title,
-    descriptionUrl = description,
+    description = description,
     image = image,
     category = category,
     backgroundUrl = backgroundUrl
